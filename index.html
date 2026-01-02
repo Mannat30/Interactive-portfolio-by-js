@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <header>
+    <nav>
+            <h1>MANNAT SHARMA</h1>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li> <a href="#about">about</a></li>
+                <li> <a href="#projects">project</a></li>
+                <li> <a href="#contact">contact</a></li>
+
+
+            </ul>
+
+        </nav>
+    </header>
+    <section class="hero">
+        <img src="../port.jpg" alt="mannat image">
+        <h2> HELLO,i am mannat sharma</h2>
+        <p>frontend developer</p>
+        <a href="#projects"class="btn">view projects</a>
+            </section>
+    <section id="about">
+        <h2>ABOUT ME</h2>
+
+        <p>Hi, I'm Mannat Sharma  
+B.Tech Student • Web Developer • Frontend Enthusiast
+
+Crafting clean, responsive websites with modern technologies.  
+Currently pursuing B.Tech at Poornima University.  
+Let's build something amazing together.
+I specialize in HTML, CSS, JavaScript, and Python, and I love creating websites that not only look good but also function smoothly across all devices. I've already worked on several hands-on projects like a To-Do List app, an Amazon clone, and a College Shortlister tool — each one helping me grow as a developer.
+
+
+</p> <br> <br>
+        <h3>SKILLS</h3>
+
+        <p>💻 Skills
+🧠 Programming Languages
+Python – Solid understanding of scripting and problem-solving.
+
+JavaScript – For interactive and dynamic web functionality.
+
+HTML5 & CSS3 – Core building blocks for responsive, accessible websites.</p>
+<p>
+
+🎨 Frontend Development Responsive Web Design – Creating layouts that adapt across all screen sizes.
+
+DOM Manipulation – Enhancing UI interactivity with JavaScript.
+
+Form Validation – Building user-friendly, validated forms.</p>
+<p>
+
+🛠️ Tools & Technologies
+VS Code – My go-to code editor for all development work.
+
+Git & GitHub – Version control and collaborative development.
+
+Figma – Designing wireframes and UI mockups.</p>
+<p>
+
+⚡ Frameworks & Libraries
+Bootstrap – For fast, responsive design prototyping.</p>
+<p>
+
+
+
+🌐 Other Skills
+Problem-Solving – Logical thinking with a strong academic foundation.
+
+Team Collaboration – Experience working with mentors during internships.
+
+Project Management – Able to manage and complete solo projects efficiently.</p>
+
+
+
+    </section>
+    <section id="projects">
+        <h2>projects</h2>
+        <div class="project-container">
+           <h3> ✅ 1. To-Do List Web App</h3>
+        <p>
+
+Description:
+A simple and intuitive task manager where users can add, delete, and mark tasks as complete. Designed with a minimalist UI for productivity-focused users.
+
+Features:
+
+Add and delete tasks
+
+Mark tasks as completed
+
+Clear all tasks
+
+LocalStorage support (optional)
+
+Tech Stack:
+
+HTML, CSS, JavaScript
+
+Outcome:
+Helped me strengthen my JavaScript logic and DOM manipulation skills.</p>
+        <button class="btn project-btn" data-title="To-Do List Web App" data-description="A simple and intuitive task manager where users can add, delete, and mark tasks as complete. Designed with a minimalist UI for productivity-focused users. Features: Add and delete tasks, Mark tasks as completed, Clear all tasks, LocalStorage support (optional). Tech Stack: HTML, CSS, JavaScript. Outcome: Helped me strengthen my JavaScript logic and DOM manipulation skills.">View Details</button>
+
+<h3>🛒 2. Amazon Home Page Clone</h3>
+<p>
+Description:
+A static clone of the Amazon homepage to replicate a real-world e-commerce layout. Focused on responsive design and component structuring.
+
+Features:
+
+Product grids, navbar, footer
+
+Hover effects and promotional banners
+
+Fully responsive layout
+
+Tech Stack:
+
+HTML, CSS, JavaScript
+
+Outcome:
+Improved my UI structuring skills and attention to detail by mimicking a complex interface.</p>
+
+<h3>🎓 3. College Shortlister Tool</h3>
+<p>
+Description:
+A simple tool that helps students shortlist engineering colleges based on criteria like location, fees, and cutoff marks.
+
+Features:
+
+Filter/search functionality
+
+Dynamic table generation
+
+User-friendly dropdown-based UI
+
+Tech Stack:
+
+HTML, CSS, JavaScript (optionally Python for backend)
+
+Outcome:
+Enhanced my ability to turn real-world problems into functional digital tools.</p>
+
+<h3>📦 4. Product Landing Page</h3>
+<p>
+Description:
+A single-page landing site for a fictional product, showcasing modern UI/UX design and responsive behavior.
+
+Features:
+
+Hero section, features grid, pricing, testimonials
+
+Fully responsive with smooth scroll
+
+Clear CTA buttons
+
+Tech Stack:
+
+HTML, CSS, JavaScript
+
+Outcome:
+Taught me layout hierarchy and CTA placement techniques crucial for marketing-focused web pages.</p>
+
+<h3>🎮 5. Rock-Paper-Scissors Game</h3>
+<p>
+Description:
+A browser-based version of the classic Rock-Paper-Scissors game where the user plays against the computer.
+
+Features:
+
+Randomized computer move
+
+Score tracking
+
+Simple animations and game logic
+
+Tech Stack:
+
+HTML, CSS, JavaScript
+
+Outcome:
+Improved my logic-building and conditional programming using JavaScript.</p>
+
+<h3>📅 6. Daily Weather App (API-based)</h3>
+<p>
+Description:
+A small app that shows the current weather of any city using the OpenWeatherMap API.
+
+Features:
+
+City-based weather search
+
+Temperature, humidity, wind speed display
+
+Responsive card UI
+
+Tech Stack:
+
+HTML, CSS, JavaScript (Fetch API)
+
+Outcome:
+Helped me understand how to work with APIs and asynchronous JavaScript using fetch.</p>
+        </div>
+    </section>
+    <!-- Modal for project details -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="close-modal">&times;</span>
+            <h2 id="modal-title"></h2>
+            <p id="modal-description"></p>
+        </div>
+    </div>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form" action="mailto:mannat@example.com" method="POST" enctype="text/plain">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Type your message here" required></textarea>
+            
+            <button type="submit" class="btn submit-btn">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h3>About Me</h3>
+                <p>Hi, I'm Mannat Sharma, a passionate frontend developer. I create clean, responsive, and user-friendly websites.</p>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact</h3>
+                <p>Email: <a href="mailto:mannat@example.com">mannat@example.com</a></p>
+                <p>Phone: +123 456 7890</p>
+            </div>
+            <div class="footer-section social">
+                <h3>Follow Me</h3>
+                <a href="https://github.com/mannat" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://linkedin.com/in/mannat" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <a href="https://twitter.com/mannat" target="_blank" rel="noopener noreferrer">Twitter</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Mannat Sharma. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
